@@ -1,0 +1,14 @@
+-- Replace each hash with the correct one from make_user_hashes.php output
+
+INSERT INTO users (username, password, full_name, email, role) VALUES
+('teacher1', '$2y$10$df8uis7mxl2fP.XzaP260uejVCxXtngF2ab.PGoN.zFAATrIWBZOK', 'REPLACE_NAME', 'teacher1@school.test', 'REPLACE_ROLE');
+
+
+INSERT INTO users (username, password, full_name, email, role) VALUES
+('accountant1', '$2y$10$gTq8cstYoRiqDX8uXbUGTu/QvQIWK45KPeNnI4U83l4nztN4bOoKy', 'REPLACE_NAME', 'accountant1@school.test', 'REPLACE_ROLE');
+
+INSERT INTO users (username, password, full_name, email, role) VALUES
+('student1', '$2y$10$Gm5p3K36eKDFsEVgXpL7beybnb9QtKdxjnDzqcQmV5bo7EKU6xSQq', 'REPLACE_NAME', 'student1@school.test', 'REPLACE_ROLE');
+
+INSERT INTO users (username, password, full_name, email, role) VALUES
+('student1', '$2y$10$Gm5p3K36eKDFsEVgXpL7beybnb9QtKdxjnDzqcQmV5bo7EKU6xSQq', 'REPLACE_NAME', 'student1@school.test', 'REPLACE_ROLE');
